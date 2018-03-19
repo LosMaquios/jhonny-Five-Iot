@@ -4,7 +4,8 @@
   "description": "Proyecto con jhonny five para iot",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "reset": "firmata-party uno --debug"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,10 @@
   },
   "homepage": "https://github.com/LosMaquios/jhonny-Five-Iot#readme",
   "dependencies": {
-    "johnny-five": "^0.14.1"
+    "arduino": "^0.2.3",
+    "firmata": "^0.19.1",
+    "firmata-party": "^1.5.9",
+    "johnny-five": "^0.14.1",
+    "serialport": "^6.1.1"
   }
 }
