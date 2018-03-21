@@ -1,6 +1,12 @@
 # jhonny-Five-Iot 
  Este proyecto busca trabajar con el framework JOHNNY-FIVE  de codigo abierto.Este framework esta basado en el protocolo firmata.
 
+# Requerimientos
+  Para poder bajar este proyecto es necesario contar con:
+  -Node
+  -npm
+  
+
 # Primeros pasos para trabajar con jhonny-five 
 1- Si estas trabajando desde S.O linux por cuestiones de permisos tienes que ir al path y darle permisos de accesos al dispositivo
 <br>
@@ -32,3 +38,6 @@
   <code>npm install </code>
 # Arduino  
  Este proyecto sera trabajado más que todo con el arduino one.
+ 
+ # Implementación
+ Se busca hacer una implementación de diferentes componentes realizados con la libreria de jhonny five 
